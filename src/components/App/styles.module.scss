@@ -1,0 +1,45 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(120deg, rgb(28, 28, 252) , rgb(0, 0, 0));
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fafafa;
+
+  .sumButton{
+    font-size: 40px;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 10px 20px;
+    justify-self: center;
+    background-color: rgb(90, 90, 255);
+    color: #fafafa
+  }
+}
+.inputContainer{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  input{
+    color: #fafafa;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(86, 86, 133);
+  }
+}
+
+.sumResult{
+  font-size: 40px;
+  font-weight: bold;
+}
